@@ -1,0 +1,41 @@
+.App-container {
+    margin: 0 auto;
+    max-width: 768px;
+    text-align: center;
+}
+
+.Register {
+    display: grid;
+    row-gap: 2rem;
+    align-items: center;
+    justify-items: center;
+    border: 2px solid;
+    border-radius: 2rem;
+    margin: 2rem 0;
+    padding: 1rem 2%;
+}
+
+.Register-input {
+    width: 80%;
+    padding: .5rem;
+}
+
+.Register-button {
+    padding: 1rem;
+    cursor: pointer;
+    border: 0;
+    background-color: indigo;
+    color: #fff;
+    transition: .5s;
+}
+
+.Register-button:hover {
+    filter: brightness(.9);
+    border-radius: 1rem 0;
+}
+
+.Card-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}

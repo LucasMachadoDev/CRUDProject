@@ -1,0 +1,14 @@
+.Card-container {
+    border: 2px solid;
+    border-radius: 2rem;
+    margin: 2rem 0;
+    padding: 2rem 2%;
+    display: grid;
+    row-gap: 3rem;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.Card-container:hover {
+    background-color: springgreen;
+}
